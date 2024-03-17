@@ -1,8 +1,8 @@
 # Sports-Website
 
-    This project is a website dedicated to various sports disciplines. It contains several articles covering sports, 
-    healthy food, and a generally healthy lifestyle. 
-    Additionally, it offers a wide range of disciplines to choose from, along with detailed information about each, and includes a basic shop.
+- This project is a website dedicated to various sports disciplines.
+- It contains several articles covering sports, healthy food, and a generally healthy lifestyle.
+- Additionally, it offers a wide range of disciplines to choose from, along with detailed information about each, and includes a basic shop.
 
 # Introduction
     The website is highly beneficial for acquiring knowledge about sports, healthy eating, and maintaining a healthy lifestyle. 
