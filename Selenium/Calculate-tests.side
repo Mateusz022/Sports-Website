@@ -1,0 +1,350 @@
+{
+  "id": "3e348645-9efb-415e-bfb3-40f06eb60a8f",
+  "version": "2.0",
+  "name": "Calculate-tests",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "878d4cc7-0d8f-4899-a974-66e72147cf2f",
+    "name": "Calculate-test-g",
+    "commands": [{
+      "id": "fe8f4e0f-3d45-4caf-a626-9e1271ad9610",
+      "comment": "",
+      "command": "open",
+      "target": "/calculate",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12c3d637-4092-4263-bf93-8e451604fa1c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1066x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a33196a8-ac89-4f14-9372-c86f6abd8954",
+      "comment": "",
+      "command": "click",
+      "target": "id=waga",
+      "targets": [
+        ["id=waga", "id"],
+        ["name=waga", "name"],
+        ["css=#waga", "css:finder"],
+        ["xpath=//input[@id='waga']", "xpath:attributes"],
+        ["xpath=//form[@id='bmiForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5481ebf-cf2e-43e5-bd3b-953e852a644a",
+      "comment": "",
+      "command": "type",
+      "target": "id=waga",
+      "targets": [
+        ["id=waga", "id"],
+        ["name=waga", "name"],
+        ["css=#waga", "css:finder"],
+        ["xpath=//input[@id='waga']", "xpath:attributes"],
+        ["xpath=//form[@id='bmiForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "70"
+    }, {
+      "id": "87a64472-352e-45fc-8fa0-c2a17a806bab",
+      "comment": "",
+      "command": "click",
+      "target": "id=wzrost",
+      "targets": [
+        ["id=wzrost", "id"],
+        ["name=wzrost", "name"],
+        ["css=#wzrost", "css:finder"],
+        ["xpath=//input[@id='wzrost']", "xpath:attributes"],
+        ["xpath=//form[@id='bmiForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2da4538a-d98a-4a4f-baf4-88b272a5706f",
+      "comment": "",
+      "command": "type",
+      "target": "id=wzrost",
+      "targets": [
+        ["id=wzrost", "id"],
+        ["name=wzrost", "name"],
+        ["css=#wzrost", "css:finder"],
+        ["xpath=//input[@id='wzrost']", "xpath:attributes"],
+        ["xpath=//form[@id='bmiForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1.80"
+    }, {
+      "id": "9ad9df0a-d488-4a3e-b3c0-1a48916de8a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.calculate-button:nth-child(5)",
+      "targets": [
+        ["css=.calculate-button:nth-child(5)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='bmiForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Oblicz BMI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc3e1866-6424-4eda-be07-b06a8386f7c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=kalorieForm",
+      "targets": [
+        ["id=kalorieForm", "id"],
+        ["css=#kalorieForm", "css:finder"],
+        ["xpath=//form[@id='kalorieForm']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[2]/form", "xpath:idRelative"],
+        ["xpath=//div[2]/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9a37341-85d7-4eaa-9421-7144acf83acd",
+      "comment": "",
+      "command": "click",
+      "target": "id=wagaKalorie",
+      "targets": [
+        ["id=wagaKalorie", "id"],
+        ["css=#wagaKalorie", "css:finder"],
+        ["xpath=//input[@id='wagaKalorie']", "xpath:attributes"],
+        ["xpath=//form[@id='kalorieForm']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e9636fe-22bb-4262-b493-ba01a6df045d",
+      "comment": "",
+      "command": "type",
+      "target": "id=wagaKalorie",
+      "targets": [
+        ["id=wagaKalorie", "id"],
+        ["css=#wagaKalorie", "css:finder"],
+        ["xpath=//input[@id='wagaKalorie']", "xpath:attributes"],
+        ["xpath=//form[@id='kalorieForm']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input", "xpath:position"]
+      ],
+      "value": "80"
+    }, {
+      "id": "c48967ed-1e45-4131-81d2-3a0c9a7caad3",
+      "comment": "",
+      "command": "click",
+      "target": "id=wzrostKalorie",
+      "targets": [
+        ["id=wzrostKalorie", "id"],
+        ["css=#wzrostKalorie", "css:finder"],
+        ["xpath=//input[@id='wzrostKalorie']", "xpath:attributes"],
+        ["xpath=//form[@id='kalorieForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e89da72-5663-4f50-a293-3a63f69fc53a",
+      "comment": "",
+      "command": "type",
+      "target": "id=wzrostKalorie",
+      "targets": [
+        ["id=wzrostKalorie", "id"],
+        ["css=#wzrostKalorie", "css:finder"],
+        ["xpath=//input[@id='wzrostKalorie']", "xpath:attributes"],
+        ["xpath=//form[@id='kalorieForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": "190"
+    }, {
+      "id": "5e3b8da0-91cf-400f-ba30-3c0c151866bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=wiek",
+      "targets": [
+        ["id=wiek", "id"],
+        ["name=wiek", "name"],
+        ["css=#wiek", "css:finder"],
+        ["xpath=//input[@id='wiek']", "xpath:attributes"],
+        ["xpath=//form[@id='kalorieForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd38c9e2-54d7-4d53-92dc-694e7d1d33d5",
+      "comment": "",
+      "command": "type",
+      "target": "id=wiek",
+      "targets": [
+        ["id=wiek", "id"],
+        ["name=wiek", "name"],
+        ["css=#wiek", "css:finder"],
+        ["xpath=//input[@id='wiek']", "xpath:attributes"],
+        ["xpath=//form[@id='kalorieForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "44"
+    }, {
+      "id": "ca56037d-439c-4c4c-9965-3f081a63a2f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=plec",
+      "targets": [
+        ["id=plec", "id"],
+        ["css=#plec", "css:finder"],
+        ["xpath=//select[@id='plec']", "xpath:attributes"],
+        ["xpath=//form[@id='kalorieForm']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec3bc9b1-193f-4ec7-b534-3c44ed52e94f",
+      "comment": "",
+      "command": "select",
+      "target": "id=plec",
+      "targets": [],
+      "value": "label=Kobieta"
+    }, {
+      "id": "698ac464-fcf1-4f39-8ce3-f7cba22f9721",
+      "comment": "",
+      "command": "click",
+      "target": "id=czas",
+      "targets": [
+        ["id=czas", "id"],
+        ["name=czas", "name"],
+        ["css=#czas", "css:finder"],
+        ["xpath=//input[@id='czas']", "xpath:attributes"],
+        ["xpath=//form[@id='kalorieForm']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16592c46-7168-4391-aa3a-625de793003d",
+      "comment": "",
+      "command": "type",
+      "target": "id=czas",
+      "targets": [
+        ["id=czas", "id"],
+        ["name=czas", "name"],
+        ["css=#czas", "css:finder"],
+        ["xpath=//input[@id='czas']", "xpath:attributes"],
+        ["xpath=//form[@id='kalorieForm']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "56"
+    }, {
+      "id": "98d904a5-b65d-4e49-bdf2-848ac73f9b01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.calculate-button:nth-child(16)",
+      "targets": [
+        ["css=.calculate-button:nth-child(16)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='kalorieForm']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Oblicz ilość spalonych kcal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82cbbdae-46fb-4d3e-9d1b-5b18586cf83f",
+      "comment": "",
+      "command": "click",
+      "target": "id=age",
+      "targets": [
+        ["id=age", "id"],
+        ["name=age", "name"],
+        ["css=#age", "css:finder"],
+        ["xpath=//input[@id='age']", "xpath:attributes"],
+        ["xpath=//form[@id='heartRateForm']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "709801d7-1231-4672-9e96-8237b4bfd6ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=age",
+      "targets": [
+        ["id=age", "id"],
+        ["name=age", "name"],
+        ["css=#age", "css:finder"],
+        ["xpath=//input[@id='age']", "xpath:attributes"],
+        ["xpath=//form[@id='heartRateForm']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/form/input", "xpath:position"]
+      ],
+      "value": "33"
+    }, {
+      "id": "c7d00006-417a-4940-8f9f-c0b3813295f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#heartRateForm > .calculate-button",
+      "targets": [
+        ["css=#heartRateForm > .calculate-button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='heartRateForm']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Oblicz maksymalne tętno')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1940d634-cd7f-4c2e-b5e1-56de105d6978",
+      "comment": "",
+      "command": "click",
+      "target": "id=wagaWoda",
+      "targets": [
+        ["id=wagaWoda", "id"],
+        ["css=#wagaWoda", "css:finder"],
+        ["xpath=//input[@id='wagaWoda']", "xpath:attributes"],
+        ["xpath=//form[@id='wodaForm']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f26fdc6b-8d59-4e39-812d-57e570895308",
+      "comment": "",
+      "command": "type",
+      "target": "id=wagaWoda",
+      "targets": [
+        ["id=wagaWoda", "id"],
+        ["css=#wagaWoda", "css:finder"],
+        ["xpath=//input[@id='wagaWoda']", "xpath:attributes"],
+        ["xpath=//form[@id='wodaForm']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/form/input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "954497a5-0857-4b0d-b9a3-278dcd3d481a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wodaForm > .calculate-button",
+      "targets": [
+        ["css=#wodaForm > .calculate-button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='wodaForm']/button", "xpath:idRelative"],
+        ["xpath=//div[4]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Oblicz zalecaną ilość wody')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29636828-8fd3-4943-8c17-a96dfaba19c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.comeback-home",
+      "targets": [
+        ["css=.comeback-home", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Powrót na stronę główną')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c124a92d-00e8-4a95-9a33-551ed5f6fc10",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["878d4cc7-0d8f-4899-a974-66e72147cf2f"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}

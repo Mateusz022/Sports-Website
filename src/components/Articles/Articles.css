@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+hr {
+    margin-top: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    
+    flex-direction: row; 
+}
+
+.main-articles {
+    flex: 1;
+    justify-content: center;
+    margin-right: auto;
+}
+
+aside {
+    flex: 0 0 25%; 
+    margin-top: 20px;
+    margin-left: 10px;
+    
+    overflow: hidden; 
+}
+
+.right-content {
+    
+    
+}
+
+.article-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.article-articles {
+    margin-top: 20px;
+}
+
+.article-main-header {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.article-main-content {
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
+img {
+    width: 100%;
+    max-height: 85%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+    
+}
+
+.additional {
+    text-align: center;
+    
+}
+.additional-description {
+    font-size: 20px;
+}
+.additional-text {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.examples {
+    color: green;
+    line-height: 1.4;
+}
+.article-break {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.sport-name {
+    font-weight: 700;
+    
+}
+
+

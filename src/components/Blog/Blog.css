@@ -1,0 +1,171 @@
+.blog-all {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.blog-description{
+    text-align: center;
+}
+
+.nav-blog {
+    text-align: left;
+    text-decoration: dashed;
+    background-color: rgb(73, 100, 73)
+    
+}
+
+.h2-blog {
+    text-align: center;
+}
+.main-blog {
+    max-width: 800px;
+    margin: 0 auto;
+   
+} 
+#wpis1-blog,#wpis2-blog,#wpis3-blog,#wpis4-blog {
+    max-width: 100%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+.comentary-blog {
+    background-color: #eaeaea;
+    border-radius: 20px;
+}
+.comentary-title {
+    font-size: 18px;
+    color: black;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 600;
+
+}
+.first-comentary {
+    margin-bottom: 3px;
+    text-align: justify;
+   
+}
+.second-comentary {
+    margin-top:3px;
+}
+.img-blog {
+    
+}
+.img-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 2px;
+    
+}
+.blog-subtitle {
+    font-size: 15px;
+    display: inline;
+}
+.blog-hr {
+    border: none; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+}
+.Description-wpis {
+    text-align: justify;
+}
+.additional-feature-blog {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.tile-blog {
+    display: flex;
+    height: 120px;
+    width: 250px;
+    background-color: azure;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 50px;
+    position: relative;
+    cursor: pointer;
+}
+.tile-blog a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    text-decoration: none; 
+}
+.tile-blog a:hover {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.tile-blog i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tile-blog i:hover {
+    outline: none;
+   
+}
+.blog-end-hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    height: 3px;
+    background-color: #00FF00; 
+}
+
+#github {
+    background-color: #24292e; 
+    color: #fff; 
+}
+#github:hover {
+    background-color: #6e7681;
+}
+#facebook {
+    background-color: #3b5998; 
+    color: #fff; 
+}
+#facebook:hover {
+    background-color: #627aad;
+}
+
+#gmail {
+    background-color: #ea4335; 
+    color: #fff; 
+}
+#gmail:hover {
+    background-color: #ff6b5e;
+}
+#linkedin {
+    background-color: #0077b5; 
+    color: #fff; 
+}
+#linkedin:hover { 
+    background-color: #0e91cf;
+}
+
+.nav-blog .ul-blog .blog-li a {
+
+}
+.nav-blog .ul-blog .blog-li a:hover {
+    color: #FFFFF0;
+    border-bottom: 2px solid #FFFFF0;
+}
+
+.blog-header .blog-h1 {
+    font-size: 25px;
+    
+}

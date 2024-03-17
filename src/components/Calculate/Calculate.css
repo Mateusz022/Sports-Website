@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.All-calculations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to bottom right, #f5f5f5, #e0e0e0);
+   
+}
+
+.Bmi-calculations,
+.calorie-calculations,
+.max-heart-rate-calculations,
+.water-calculations {
+    width: 80%;
+    
+    margin-bottom: 20px;
+}
+
+.Bmi-calculations,
+.calorie-calculations,
+.max-heart-rate-calculations,
+.water-calculations form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Bmi-calculations h2,
+.calorie-calculations h2,
+.max-heart-rate-calculations h2,
+.water-calculations h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+    
+   
+}
+
+input[type="number"],
+select {
+    padding: 8px;
+    margin-bottom: 10px;
+   
+}
+
+
+.calculate-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+
+.calculate-button:hover {
+    background-color: #0056b3;
+}
+
+#wynikBMI,
+#wynikKalorie,
+#wyniktetna,
+#wynikWoda {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.comeback-home {
+    background-color: rgb(14, 193, 14);
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 215px;
+    
+}
+.comeback-home:hover {
+    background-color: rgb(11, 226, 11);
+}
+.last-button {
+    display: inline;
+    
+}

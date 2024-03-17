@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logging-all-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 40px;
+
+}
+
+.logging-heading {
+    text-align: center;
+}
+
+.form-logging-group {
+    font-size: 20px;
+}
+.form-logging-group {
+    margin-bottom: 15px;
+}
+
+.form-logging-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-logging-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.button-logging {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+.button-logging:hover {
+    background-color: #0056b3;
+}
+.p-logging-options {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.p-logging-options span {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.p-logging-options span:hover{
+    text-decoration: underline;
+}
+
+.email-error {
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 2px;
+}
+
+.password-error {
+    color:red;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 2px;
+}

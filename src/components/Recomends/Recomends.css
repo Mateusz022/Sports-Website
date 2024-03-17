@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    display: flex;
+    max-width: 100%;
+    margin: 10px; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.content {
+    flex: 0 0 75%; 
+    
+}
+
+.text-container {
+    margin-top: 0;
+    text-align: center;
+}
+
+.sidebar {
+    flex: 0 0 25%; 
+    background-color: #f1f1f1; 
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.important {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.info {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+    color: #555;
+    text-align: left;
+}
+.img-img {
+    display: flex;
+   
+}
+.img-one {
+    width: 100%;
+    height: auto; 
+    margin-right: 5px;;
+}
+.img-two {
+    width: 100%;
+    height: auto; 
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ad {
+    font-weight: bold;
+    color: #333; 
+    
+}
+
+.stars {
+    display: inline-block; 
+    margin-right: 70px; 
+    text-align: center;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    margin-top: 20px;
+    width: 87%;
+    margin-left: 100px;
+  }
+  .information-title-sport {
+    font-weight: bold;
+    color: #4CAF50;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+    }
+    .content {
+        flex: 1;
+    }
+    .sidebar {
+        flex: 1;
+        margin-top: 20px;
+    }
+    footer {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container1 {
+        padding: 10px;
+    }
+    footer {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    footer {
+        width: 100%;
+        margin-left: 0;
+    }
+}

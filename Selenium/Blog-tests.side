@@ -1,0 +1,154 @@
+{
+  "id": "88c650fa-acc6-426c-b19a-177257b8659f",
+  "version": "2.0",
+  "name": "Blog-tests",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "a866245d-5d50-4876-b894-9ffbccac130a",
+    "name": "Blog-test-g",
+    "commands": [{
+      "id": "2b749759-fdb0-4cea-9ca5-fb462e2a9dfb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85848ff2-1754-47d5-8551-23a5f730a217",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1066x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "912e4ff5-3e16-4e2b-b939-a817e8bdd070",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='root']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/blog')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82a9fd62-57a4-4923-acf5-b65e7c08773e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='root']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/blog')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f2ec965-e3d7-47eb-99a4-b7bf3d5c3e8a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='root']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/blog')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44e4aa0c-180d-4c07-8b97-b1e6f5622ce5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wpis 1",
+      "targets": [
+        ["linkText=Wpis 1", "linkText"],
+        ["css=.blog-li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wpis 1')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#wpis1-blog')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wpis 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0c41d58-ed99-4a5f-959e-0c4023facde9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wpis 2",
+      "targets": [
+        ["linkText=Wpis 2", "linkText"],
+        ["css=.blog-li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wpis 2')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#wpis2-blog')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wpis 2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2baedfa6-b31b-4eb2-aad8-bce0131790dc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wpis 3",
+      "targets": [
+        ["linkText=Wpis 3", "linkText"],
+        ["css=.blog-li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wpis 3')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#wpis3-blog')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wpis 3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "caf8229c-3d0e-421d-918e-20a197e32cda",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wpis 4",
+      "targets": [
+        ["linkText=Wpis 4", "linkText"],
+        ["css=.blog-li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wpis 4')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#wpis4-blog')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wpis 4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f81759a-1c04-4c81-9938-eef8e7dffbe9",
+      "comment": "",
+      "command": "click",
+      "target": "id=scrollToTopBtn",
+      "targets": [
+        ["id=scrollToTopBtn", "id"],
+        ["css=#scrollToTopBtn", "css:finder"],
+        ["xpath=//button[@id='scrollToTopBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Przewiń na górę')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3fca9dcc-c445-4ae1-b8a0-e3ac112fe22f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a866245d-5d50-4876-b894-9ffbccac130a"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}

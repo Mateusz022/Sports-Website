@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportowe Obliczenia</title>
+    <link rel="stylesheet" href="sport.css">
+</head>
+<body>
+    <h2 class="first">Oblicz BMI</h2>
+    <form id="bmiForm">
+        <label for="waga">Waga (kg):</label>
+        <input type="number" id="waga" name="waga" step="0.01">
+        <label for="wzrost">Wzrost (m):</label>
+        <input type="number" id="wzrost" name="wzrost" step="0.01">
+        <button type="submit">Oblicz BMI</button>
+    </form>
+    <div id="wynikBMI"></div>
+
+    <h2>Oblicz Kalorie</h2>
+    <form id="kalorieForm">
+        <label for="wagaKalorie">Waga (kg):</label>
+        <input type="number" id="wagaKalorie" name="wagaKalorie" step="0.01">
+        <label for="wzrostKalorie">Wzrost (cm):</label>
+        <input type="number" id="wzrostKalorie" name="wzrostKalorie" step="1">
+        <label for="wiek">Wiek:</label>
+        <input type="number" id="wiek" name="wiek" step="1">
+        <label for="plec">Płeć:</label>
+        <select id="plec" name="plec">
+            <option value="Mężczyzna">Mężczyzna</option>
+            <option value="Kobieta">Kobieta</option>
+        </select>
+        <label for="czas">Czas ćwiczeń (min):</label>
+        <input type="number" id="czas" name="czas" step="1">
+        <button type="submit">Oblicz ilość spalonych kcal</button>
+    </form>
+    <div id="wynikKalorie"></div>
+
+    <h2>Oblicz maksymalne tętno</h2>
+    <form id="heartRateForm">
+        <label for="age">Wiek:</label>
+        <input type="number" id="age" name="age" step="1">
+        <button type="submit">Oblicz maksymalne tętno</button>
+    </form>
+    <div id="wynikTetna"></div>
+
+    <h2>Oblicz ilość Wody</h2>
+    <form id="wodaForm">
+        <label for="wagaWoda">Waga (kg):</label>
+        <input type="number" id="wagaWoda" name="wagaWoda" step="1">
+        <button type="submit">Oblicz zalecaną ilość wody</button>
+    </form>
+    <div id="wynikWoda"></div>
+
+    <script>
+        function obliczBMI(waga, wzrost) {
+            const bmi = waga / (wzrost * wzrost);
+            return bmi.toFixed(2);
+        }
+
+        function obliczSpaloneKalorie(waga, wzrost, wiek, plec, czas) {
+            let bmr;
+            if (plec === 'Mężczyzna') {
+                bmr = 66 + (13.7 * waga) + (5 * wzrost) - (6.8 * wiek);
+            } else {
+                bmr = 655 + (9.6 * waga) + (1.8 * wzrost) - (4.7 * wiek);
+            }
+
+            const spaloneKalorie = bmr * czas * 4 / 1440; // czas w minutach, dlatego dzielimy przez 1440
+            return spaloneKalorie.toFixed(2);
+        }
+
+        function obliczIloscWody(waga) {
+            return (waga * 0.03).toFixed(2);
+        }
+
+        function obliczMaksymalneTetno(wiek) {
+            return 220 - wiek;
+        }
+
+        document.getElementById('bmiForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const waga = parseFloat(document.getElementById('waga').value);
+            const wzrost = parseFloat(document.getElementById('wzrost').value);
+            const bmi = obliczBMI(waga, wzrost);
+            document.getElementById('wynikBMI').innerText = `BMI: ${bmi}`;
+        });
+
+        document.getElementById('kalorieForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const waga = parseFloat(document.getElementById('wagaKalorie').value);
+            const wzrost = parseFloat(document.getElementById('wzrostKalorie').value);
+            const wiek = parseFloat(document.getElementById('wiek').value);
+            const plec = document.getElementById('plec').value;
+            const czas = parseFloat(document.getElementById('czas').value);
+            const spaloneKalorie = obliczSpaloneKalorie(waga, wzrost, wiek, plec, czas);
+            document.getElementById('wynikKalorie').innerText = `Spalone kalorie: ${spaloneKalorie} kcal`;
+        });
+
+        document.getElementById('heartRateForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const wiek = parseFloat(document.getElementById('age').value);
+            const tetno = obliczMaksymalneTetno(wiek);
+            document.getElementById('wynikTetna').innerText = `Maksymalne tętno: ${tetno}`;
+        });
+
+        document.getElementById('wodaForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const wagaWoda = parseFloat(document.getElementById('wagaWoda').value);
+            const iloscWody = obliczIloscWody(wagaWoda);
+            document.getElementById('wynikWoda').innerText = `Zalecana ilość wody: ${iloscWody} litrów`;
+        });
+    </script>
+</body>
+</html>

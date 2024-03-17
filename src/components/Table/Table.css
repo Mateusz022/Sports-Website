@@ -1,0 +1,33 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto; 
+    margin-top: 10px;
+}
+th, td {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+    
+}
+
+.underweight {
+    color: #2ecc71; 
+    
+}
+.normal {
+    color: #3498db;
+    
+}
+.overweight {
+    color: #f39c12;
+}
+.obese {
+    color: #e74c3c; 
+}
+
